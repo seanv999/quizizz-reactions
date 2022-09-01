@@ -46,7 +46,7 @@ class Quiz {
 //Usage
 const quiz = new Quiz();
 
-quiz.setPin(960942);
+quiz.setPin(960942); //must setPin to connect to the game
 
-quiz.react('Sean V',3,num)
+quiz.react('Sean V',10,3) //(name,size,type)
 
